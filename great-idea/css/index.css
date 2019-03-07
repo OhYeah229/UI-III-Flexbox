@@ -64,3 +64,140 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 878px;
+	margin: auto;
+}
+
+.cantainerp2{
+	width: 878px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 20px;
+}
+
+header img {
+	display: flex;
+}
+
+header nav a {
+	margin: 0 20px;
+	color: gray;
+	text-decoration: none;
+	
+}
+
+.innovation {
+	text-align: center;
+	font-size: 80px;
+	line-height: 0.5;
+	padding-top: 100px;
+}
+
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+hr {
+	display: flex;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-width: 2px;
+}
+
+.mainContainOne {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mainContainTwo {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+.contact {
+	padding-top: 50px;
+}
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.mainContainOne2 p{
+	margin-bottom: 20px;
+}
+
+.services-header-img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.allBoxes {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between
+}
+
+.allBoxes div {
+	text-align: left;
+	display: flex;
+	width: 48%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	background: #f4f2f4;
+}
+
+.allBoxes div h3 , button {
+	margin: 20px;
+}
+
+.allBoxes p {
+	margin-right: 20px;
+	margin-left:  20px;
+}
+
+.lastContain {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.someFacts{
+	width:  48%;
+	padding-top: 20px;
+}
+
+.services-info-img{
+	width:  48%;
+	padding-top: 20px;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
